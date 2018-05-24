@@ -18,8 +18,8 @@
 
 class CValidationState;
 
-#define BLOCK_START_MASTERNODE_PAYMENTS_TESTNET 81500 // Testnet Masternode payments enabled block 81k5
-#define BLOCK_START_MASTERNODE_PAYMENTS 645000 //Mainnet Masternode payments not enabled until block 645k
+#define BLOCK_START_MASTERNODE_PAYMENTS_TESTNET 10 // Testnet Masternode payments enabled block 81k5
+#define BLOCK_START_MASTERNODE_PAYMENTS 10 //Mainnet Masternode payments not enabled until block 645k
 
 //#define START_MASTERNODE_PAYMENTS_TESTNET 1519430400  //Sat, 24 Feb 2018 00:00:00 GMT
 //#define START_MASTERNODE_PAYMENTS 1520985600  //Wed, 14 Mar 2018 00:00:00 GMT
@@ -56,7 +56,7 @@ class CNode;
 
 // General Denarius Block Values
 
-static const int LAST_POW_BLOCK = 10; // Block 3m Approx. 3 years of Proof of Work before Proof of Stake consensus kicks in
+static const int LAST_POW_BLOCK = 1000; // Block 3m Approx. 3 years of Proof of Work before Proof of Stake consensus kicks in
 static const int FAIR_LAUNCH_BLOCK = 10; // Last Block until full block reward starts
 static const unsigned int MAX_BLOCK_SIZE = 40000000; // 1MB block hard limit, double the size of Bitcoin
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2; // 512kb block soft limit, ditto
